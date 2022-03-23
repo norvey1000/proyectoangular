@@ -7,10 +7,15 @@ import { NavComponent } from './components/layout/nav/nav.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+
 import { TubingComponent } from './components/experiencias/tubing/tubing.component';
 import { AltaguajiraComponent } from './components/experiencias/altaguajira/altaguajira.component';
 import { ParquesnaturalesComponent } from './components/experiencias/parquesnaturales/parquesnaturales.component';
 import { CiclismoComponent } from './components/experiencias/ciclismo/ciclismo.component';
+
+import { ContactoComponent } from './components/contacto/contacto.component';
+
+
 
 
 @NgModule({
@@ -20,10 +25,13 @@ import { CiclismoComponent } from './components/experiencias/ciclismo/ciclismo.c
     FooterComponent,
     InicioComponent,
     GaleriaComponent,
+
     TubingComponent,
     AltaguajiraComponent,
     ParquesnaturalesComponent,
     CiclismoComponent,
+
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
