@@ -1,0 +1,19 @@
+img{
+    width: 700px;
+    height: 500px;
+    padding: 20px 10px 40px 60px;
+    margin: 20px 10px 40px 60px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+}

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/layout/nav/nav.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
     NavComponent,
     FooterComponent,
     InicioComponent,
+    GaleriaComponent,
   ],
   imports: [
     BrowserModule,
