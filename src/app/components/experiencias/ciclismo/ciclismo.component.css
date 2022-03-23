@@ -1,0 +1,17 @@
+img{
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+}
+
+p{  
+    margin: 30px;
+    text-align: center;
+}
