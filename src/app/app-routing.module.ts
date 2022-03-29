@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './components/inicio/inicio.component';
-import { GaleriaComponent } from './components/galeria/galeria.component';
-
 import { TubingComponent } from './components/experiencias/tubing/tubing.component';
 import { AltaguajiraComponent } from './components/experiencias/altaguajira/altaguajira.component';
 import { ParquesnaturalesComponent } from './components/experiencias/parquesnaturales/parquesnaturales.component';
 import { CiclismoComponent } from './components/experiencias/ciclismo/ciclismo.component';
-
+import { GaleriaComponent } from './components/galeria/galeria.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 
 
@@ -21,11 +19,6 @@ const routes: Routes = [
   {
     path: 'inicio',
     component: InicioComponent,
-  },
-  {
-
-    path: 'galeria',
-    component: GaleriaComponent
   },
   {
     path: 'altaguajira',
@@ -42,10 +35,14 @@ const routes: Routes = [
   {
     path: 'ciclismo',
     component: CiclismoComponent
-  }
+  },
   {
     path: 'contacto',
     component: ContactoComponent
+  },
+  {
+    path: 'galeria',
+    component: GaleriaComponent
   }
 ];
 

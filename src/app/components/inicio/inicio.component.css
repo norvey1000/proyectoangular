@@ -26,3 +26,16 @@
     margin-top: 10px;
 }
 
+img{
+    width: 700px;
+    height: 500px;
+}
+.row{
+    margin-top: 20PX;
+}
+.slide{
+    margin-top: 150px;
+}
+#contacto{
+    padding-left: 50px;
+}
